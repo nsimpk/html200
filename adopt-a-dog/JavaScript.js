@@ -1,8 +1,6 @@
-function adoptMe(){
-    let input=prompt('Enter a number');
-    let result=0;
-
-    result=Number(input)*Number(input);
-
-    alert(result);
+function adoptMe(dogName){
+    const dogBreed = 'Breed: Fluffy';
+    const dogFee = 'Adoption Fee $1';
+    let dogDeets= dogName +', '+ dogBreed + ', ' + dogFee;
+    alert(dogDeets);
 }
