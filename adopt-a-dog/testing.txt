@@ -1,0 +1,52 @@
+Target Average User Persona:
+Nick Miller
+Age: 38
+
+Occupation: Bar Tender
+
+Education: Law degree
+
+Who is Nick?
+
+Lives in a flat with 3-4 roommates. He’s seeking a quick way to adopt a dog without complicated techy stuff slowing him down.
+
+Challenges:
+
+Poorly designed sites confuse him easily and he will give up entirely 
+Sharing personal details online seems suspicious to him and he'd rather go down the place and talk face to face to the people with the dogs.
+Other Details: 
+
+He’s capable of using multiple browsers after his time studying for the bar but he doesn't own a smart phone so he is limited to using his roommates work laptop when they aren't home.
+Roommates work laptop is last years model thinkpad, Edge Browser
+
+Test Plan Scope:
+
+Test different browsers;
+ Chrome
+ Edge
+ Safari
+
+Test different operating systems;
+PC Windows/Linux
+MacOS
+iOS
+Android
+
+Test Mobile devices;
+tablet
+cellphone
+
+Future Test devices:
+Living room devices; Xbox, PS5, Amazon Fire TV, Android Sheild Nvidea Set top box, Roku, Chromecast
+
+Pre-requisite:
+User has access to local server or staging site environment testing before publishing
+
+Current Staging Test Cases:
+User validates Text, controls and images are aligned properly when possible confirming via dev tools inspection of elements
+User validates responsive design by shrinking and expanding the browser window as well as rotating for a mobile device
+User ensures all deeplinks navigate to the proper pages within the website
+
+Future Scenarios (post buildout of Cart page and functionality tied to adding dogs to cart):
+User End to End tests flow for adopting a dog (Happy Path checkout flow)
+Invalid Payment information (Negative flow)
