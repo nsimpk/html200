@@ -1,0 +1,21 @@
+.main-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  
+  .box-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .box {
+    width: 30%;
+    margin: 1.5%;
+    height: 200px;
+    background: black;
+  }
+  
